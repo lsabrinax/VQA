@@ -1,4 +1,4 @@
-# VQA
+# VQA(更新中)
 介绍当前解决VQA问题的基本思路以及在基本网络结构上的各种改进模型
 ## 基本网络结构
 ![基本网络结构]()
@@ -11,7 +11,7 @@
 ### 图像特征提取
 - 整图特征
 - 基于Edge Boxes
-	- [Where To Look: Focus Regions for Visual Question Answering](#wheretolook)
+	- [Where To Look: Focus Regions for Visual Question Answering](#where-to-look)
 - 基于 Uniform Grid
 - 基于 Region Proposal
 	- [Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering](http://openaccess.thecvf.com/content_cvpr_2018/papers/Anderson_Bottom-Up_and_Top-Down_CVPR_2018_paper.pdf)(CVPR2018)
