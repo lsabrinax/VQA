@@ -11,7 +11,7 @@
 ### 图像特征提取
 - 整图特征
 - 基于Edge Boxes
-	- [Where To Look: Focus Regions for Visual Question Answering](#where-to-look)
+	- [Where To Look: Focus Regions for Visual Question Answering](#wheretolook)
 - 基于 Uniform Grid
 - 基于 Region Proposal
 	- [Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering](http://openaccess.thecvf.com/content_cvpr_2018/papers/Anderson_Bottom-Up_and_Top-Down_CVPR_2018_paper.pdf)(CVPR2018)
@@ -33,7 +33,7 @@
 		- 对MCB和MLB提出了改进,用tucker分解的方法将一个高维度的三维张量分解为三个二维矩阵和一个三维的核张量，进一步降低了参数量并提高了提取图像和文本特征相关性的能力
 		- 对核张量添加了秩的限制，进一度降低数据维度，增加了模型的可解释性
 - attention机制
-	- <span id="where to look">[Where To Look: Focus Regions for Visual Question Answering](http://openaccess.thecvf.com/content_cvpr_2016/papers/Shih_Where_to_Look_CVPR_2016_paper.pdf)(CVPR2016)</span>
+	- <span id="wheretolook">[Where To Look: Focus Regions for Visual Question Answering](http://openaccess.thecvf.com/content_cvpr_2016/papers/Shih_Where_to_Look_CVPR_2016_paper.pdf)(CVPR2016)</span>
 		- ![Where To Look]()
 		- 利用图像特征和问题特征的点积产生attention map,对图像和文本特征做加权平均
 	- [Hierarchical Question-Image Co-Attention for Visual Question Answering](http://papers.nips.cc/paper/6202-hierarchical-question-image-co-attention-for-visual-question-answering.pdf)(NIPS2016)
