@@ -34,7 +34,7 @@
 		- 对核张量添加了秩的限制，进一度降低数据维度，增加了模型的可解释性
 - attention机制
 	- <span id="wheretolook">[Where To Look: Focus Regions for Visual Question Answering](http://openaccess.thecvf.com/content_cvpr_2016/papers/Shih_Where_to_Look_CVPR_2016_paper.pdf)(CVPR2016)</span>
-		- ![Where To Look](images/vqa.pdf)
+		- ![Where To Look](images/vqa.jpg)
 		- 利用图像特征和问题特征的点积产生attention map,对图像和文本特征做加权平均
 	- [Hierarchical Question-Image Co-Attention for Visual Question Answering](http://papers.nips.cc/paper/6202-hierarchical-question-image-co-attention-for-visual-question-answering.pdf)(NIPS2016)
 	- [Deep Modular Co-Attention Networks for Visual Question Answering](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yu_Deep_Modular_Co-Attention_Networks_for_Visual_Question_Answering_CVPR_2019_paper.pdf)(CVPR2019)
