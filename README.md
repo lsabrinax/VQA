@@ -6,6 +6,7 @@
 - [问题特征提取](#问提特征提取)
 - [特征融合](#特征融合)
 - [答案输出](#答案输出)
+
 网络结构主要包含这四个部分，后续的文章也主要从这四个不同的方面对网络模型做出改进
 ## 主流网络模型
 ### 图像特征提取
@@ -53,8 +54,8 @@
 ### 其他
 - 问题分解
 	- [Neural Module Networks](http://openaccess.thecvf.com/content_cvpr_2016/papers/Andreas_Neural_Module_Networks_CVPR_2016_paper.pdf)(CVPR2016)
-		- ![NMN](images/NMN.jpg)
+		![NMN](images/NMN.jpg)
 		- 根据语言解析器将问题分解成各个子问题，然后每个问题类型对应一个模块，根据问题动态组合不同的模块
 	- [Learning to Reason: End-to-End Module Networks for Visual Question Answering](http://openaccess.thecvf.com/content_ICCV_2017/papers/Hu_Learning_to_Reason_ICCV_2017_paper.pdf)(ICCV2017)
-		- ![EndtoEnd](images/EndtoEnd.jpg)
+		![EndtoEnd](images/EndtoEnd.jpg)
 		- 和NMN相同的思路,将问题分解为多个子模块,不同在于利用RNN对问题编码预测各个子模块以及网络的布局
